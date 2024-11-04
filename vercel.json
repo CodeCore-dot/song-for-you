@@ -1,0 +1,13 @@
+{
+    "builds": [
+      {
+        "src": "app.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "CLIENT_ID": "@spotify-client-id",
+      "CLIENT_SECRET": "@spotify-client-secret"
+    }
+  }
+  
